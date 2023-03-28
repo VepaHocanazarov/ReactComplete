@@ -1,24 +1,6 @@
-import { useState, useEffect ,useRef} from "react";
+import { useState, useEffect, useRef } from "react";
+import data from "./Product.json"
 
-const data = [
-  {
-    id: 1,
-    title: "test 1"
-  },
-  {
-    id: 2,
-    title: "Test 2"
-  },
-
-  {
-    id: 3,
-    title: "deneme 1"
-  },
-  {
-    id: 4,
-    title: "Deneme 2"
-  }
-]
 
 function App() {
 
@@ -30,17 +12,17 @@ function App() {
 
   useEffect(() => {
 
-    document.addEventListener("mousedown",handleClickOutside)
-    return ()=>{ 
-      document.removeEventListener("mousedown",handleClickOutside)
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside)
     }
-  
+
   }, [])
 
-  const handleClickOutside = (e)=>{
-   if( searchRef.current && !searchRef.current.contains(e.target)){
-     setSearch("")
-   }
+  const handleClickOutside = (e) => {
+    if (searchRef.current && !searchRef.current.contains(e.target)) {
+      setSearch("")
+    }
   }
 
   useEffect(() => {
@@ -48,7 +30,7 @@ function App() {
     if (isTyping) {
 
       const filteredResult = data.filter(item => item.title.toLowerCase().includes(search.toLowerCase()))
-      setResult(filteredResult.length > 0  ? filteredResult : false)
+      setResult(filteredResult.length > 0 ? filteredResult : false)
     } else {
       setResult(false)
     }
@@ -65,12 +47,17 @@ function App() {
 
         {isTyping && (
           <div className="search-result" >
-            { result && result.map(item => (
-              <div className="search-result-item" key={item.id} > {item.title} </div>
+            {result && result.map(item => (
+              <div className="search-result-item" key={item.id} >
+                <img src={item.img} alt="" />
+                <h4> Modeli: {item.name}</h4>
+                <h5>Fiyatı : {item.price} </h5>
+              </div>
+
             ))}
 
-            {!result&& (
-              <div className="result-not-found" > 
+            {!result && (
+              <div className="result-not-found" >
                 " {search}" ile ilgili birşey bulamadık!
               </div>
             )}

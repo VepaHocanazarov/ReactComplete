@@ -54,6 +54,11 @@ border-radius: 10px 10px 0 0 ;
   padding: 10px 15px;
 }
 
+.search .search-result .search-result-item img{
+  width: 200px;
+  height: auto;
+}
+
 .search .result-not-found{
   padding: 25px;
   text-align: center;

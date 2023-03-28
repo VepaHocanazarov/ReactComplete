@@ -1,0 +1,63 @@
+ [
+    {
+      "id": 1,
+      "price":"1 000 000 Tl",
+      "title": "Araba",
+      "name": "Toyota Corolla Cross SUV Asian Launch ",
+      "img": "https://mcmscache.epapr.in/post_images/website_300/post_16981436/thumb.jpg"
+      
+    },
+    {
+      "id": 2,
+      "price":"1 100 000 Tl",
+      "title": "Araba",
+      "name": "Yeni BMW XM",
+      "img": "https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfQnPz10tLhu1XzWVo7puMLWFmdkAj5DOP7tFJZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gijPNF1VgxNJ0%25lI2oub5imC2yRCzXeTt%25ViPRKVZVYVfFWh1DMzti08eqVYDafH6UjmztYRSJwL67aftxdTCyw1RSfWQlEW%25VxdSeZsNluzWQdjc9Fk3aeZQ6KownXRjcZwBL%25mrx6Kc%252yV34WwBKupCV1Fe%252B3inXZIjup2XH5rzv63iprJ849GwXHi4TPl29%25rJHFlMaxou4TJIsDA4L3FlTv0YLHyXIslGAtydCrv0s9OfwTE4GA0ogSkcNF9OALUdn%25kIogOybQ5mnvLUgChZS95GybUEqcdx89ChbNmKizPoEqhk7b1DMLNmqn1hdnDyk7m5VqQ7YCn178zmZetE5V1Pa7oDfN8zVMRcxSSkPazDxKBYdnMRaYWB2NQ5DxRte2pAZ8YWxfjpIBcPteWS6ivnKMfjedwHuXBDS6jQ%25JLn2Ydw6ZuTAnptQ%25wc3lOHifZu%25KXcagHSc3u8uHLcgXmvE70gpnG7xqLvQFjz9nE47rpI0eswTYtZv"
+    },
+  
+    {
+      "id": 3,
+      "price":"900 000 Tl",
+      "title": "Araba",
+      "name": "Tesla Model S",
+      "img": "https://tesla-cdn.thron.com/delivery/public/image/tesla/638101a8-7cab-47b1-9ce4-034f070b7400/bvlatuR/std/1800x998/Model-S-Order-Hero-Desktop-Mobile-LHD?quality=auto-medium&amp;format=auto"
+    },
+    {
+      "id": 4,
+      "price":"1 300 000 Tl",
+      "title": "Araba",
+      "name": " Toyota Hilux Price",
+      "img": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/109265/hilux-exterior-right-front-three-quarter.jpeg?isig=0&q=75"
+    },
+
+    {
+        "id": 1,
+        "price":"100 Tl",
+        "title": "Kitap",
+        "name": "Anna Karanina ",
+        "img": "https://n11scdn.akamaized.net/a1/602_857/03/90/30/72/IMG-7845180720976663055.jpg"
+        
+      },
+      {
+        "id": 2,
+        "price":"90 Tl",
+        "title": "Kitap",
+        "name": "Simyacı",
+        "img": "https://img.kitapyurdu.com/v1/getImage/fn:11582810/wh:true/wi:800"
+      },
+    
+      {
+        "id": 3,
+        "price":"85 Tl",
+        "title": "Kitap",
+        "name": "Ucurtma Avcısı",
+        "img": "https://i.dr.com.tr/cache/600x600-0/originals/0000000153127-1.jpg"
+      },
+      {
+        "id": 4,
+        "price":"50 Tl",
+        "title": "Kitap",
+        "name": "Kürk Mantolu Madonna",
+        "img": "https://i.dr.com.tr/cache/600x600-0/originals/0000000058245-1.jpg"
+      }
+  ]
